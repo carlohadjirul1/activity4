@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="desktop.css">
+   
+   
+    <title>Responsive Navbar</title>
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">Caffe Mo</div>
+            <div class="menu-icon">&#9776;</div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="one ">The Only Mixed Coffee in Town</h1>
+        <h1 class="two">Cold Coffee. Hot Coffee.</h1>
+        <button class="btn">Order Now</button>
+    </div>
+
+   
+     <div class="main-container">
+        <h1 class="featured">Featured Coffee</h1>
+     
+    <div class="featured-container">
+        <div class="cafe-featured">
+            <img class="img" src="2.jpg" alt="">
+            <p class="name">Caffelatte</p>
+            <p class="price">$14.00</p>
+        </div>
+    
+        <div class="cafe-featured">
+            <img class="img" src="3.jpg" alt="">
+            <p class="name">Caramel Milk</p>
+            <p class="price">$12.00</p>
+        </div>
+    
+        <div class="cafe-featured">
+            <img class="img" src="4.jpg" alt="">
+            <p class="name">Cafe Matapang</p>
+            <p class="price">$10.00</p>
+        </div>
+    </div>
+    <button class="view-more"> View More </button>
+</div>
+<div class="customer">
+    <p class="customer-says">What Our Customers Say</p>
+    <div class="comments">
+        <button class="arrow"> < </button>
+        <div class="comment1">
+            <p class="says">"These coffee are the perfect blend of
+                flavor and spice. A true delight!"</p>
+                <p class="says">-Mario</p>
+        </div>
+        <div class="comment1">
+            <p class="says">"The Coffee like these are hard to find.
+                The Caffe Latte is a must-try!"</p>
+                <p class="says">-Maria</p>
+        </div>
+        <button class="arrow"> > </button>
+    </div>
+    <div class="arrows">
+        <button class="arrow1"> < </button>
+        <button class="arrow1"> > </button>
+    </div>
+     
+</div>
+        
+       
+    
+  
+
+<footer>
+    Copyright 2023 Spicy Pizza. All rights reserved.
+</footer>
+
+    <script>
+        // JavaScript to toggle the mobile menu
+        const menuIcon = document.querySelector('.menu-icon');
+        const navbarLinks = document.querySelector('.navbar-links');
+
+        menuIcon.addEventListener('click', () => {
+            navbarLinks.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
